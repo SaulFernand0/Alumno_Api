@@ -12,7 +12,7 @@ app.use(cors());
 app.use(morgan('dev'));
 
 app.get('/', function(req, res, next) {
-    res.send('SERVIDOR  CORRIENDO SATISFACTORIAMENTE...!');
+    res.send('Conexión establecida');
 });
 
 app.use('/alumno', alumnoRoutes);
